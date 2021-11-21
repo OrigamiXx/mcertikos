@@ -1,0 +1,23 @@
+Compile: make / make all
+Run tests: make clean && make TEST=1
+Run in qemu: make qemu / make qemu-nox
+Debug with gdb: make qemu-gdb / make qemu-nox-gdb
+                (in another terminal) gdb
+
+To use your solutions from lab 1: git merge lab1
+To use sample lab 1 solutions: copy files in samples/ to appropriate directories
+
+List here the following info:
+1. who you have worked with
+Yuran Zhu
+
+2. whether you coded this assignment together, and if not, who worked on which part
+We discussed together but each implemented our own version.
+
+3. brief description of what you have implemented
+All parts prior to EX13 implemented and test passed.
+
+For the shell, the following commands are implemented:
+ls
+pwd
+cd #cd will cd to dir with given name in current dir. if a path is given instead it sill directly go to that path, if a wrong path/name is given nothing will happen
